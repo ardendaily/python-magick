@@ -6,6 +6,8 @@ all can be chained together for cyber-spellcraft.
 
 this is //very much a work in progress//. it will likely end up a library. use carefully.
 
+
+
 sigilcraft.py
 -------------
 construct cryptographic hash-digests of intention, to file or stdout. interactive.
