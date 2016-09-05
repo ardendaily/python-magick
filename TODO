@@ -1,0 +1,14 @@
+TODO 
+
+a) Refactor files of ./MagickAltar as following:
+- whenever possible, have small, self-contained objects with clear, self-documenting functions.
+- whenever possible, these objects should be nouns-- candle, paper, etc.
+
+b) Move or refactor some files to ./MagickActions
+- whenever possible, small, self-contained, etc.
+- this time these are verbs -- actions to perform on magick objects
+
+c) magickaltar.py (tentative filename)
+- ipythonic, bpythonic, interactive shell for playing with magick.
+- shoot for cross-platform compatibility
+- this is just icing for those not looking to roll their own magick.
