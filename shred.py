@@ -15,7 +15,7 @@ TO-DO
 '''
 
 
-import ArgumentParser, sys
+import argparse, sys
 
 if __name__ == "__main__":
 	cli_desc = ''
@@ -26,5 +26,10 @@ if __name__ == "__main__":
 
 	args = parser.parse_args()
 
-	if args.file:
-		print ''
+	if args.file: #load file
+		#args.file.read() #does the job
+
+	# Close if stdin is empty
+	if args.file.isatty():
+		print "Must provide data!"
+		exit(2)
